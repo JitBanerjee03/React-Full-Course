@@ -1,0 +1,12 @@
+.OuterDiv{
+    border:2px solid black;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:10%;
+    padding-left:10% ;
+
+    border-radius: 15%;
+}

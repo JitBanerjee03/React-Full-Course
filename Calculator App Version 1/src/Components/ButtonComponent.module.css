@@ -1,0 +1,21 @@
+.btnDiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:5%;
+}
+
+.ownBtn{
+    width: 100px;
+    font-size:250%;
+    border: 2px solid black;
+    margin: 2%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.flexBoxDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

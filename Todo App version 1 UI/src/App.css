@@ -1,0 +1,22 @@
+.Todo_name{
+  background-color: blueviolet;
+
+  margin-bottom: 5%;
+
+  font-size: larger;
+
+  font-weight: bolder;
+}
+
+.One{
+  margin-bottom: 2%;
+}
+
+.Two{
+  margin-bottom: 2%;
+}
+
+.AddBtn{
+  width: 20%;
+}
+
