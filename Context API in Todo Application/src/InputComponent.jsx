@@ -1,11 +1,12 @@
-import { useRef } from "react"
+import { useContext, useRef } from "react"
 import TodoItem from "./TodoItem"
 import style from "./styles/InputComponent.module.css"
 import { IoIosAddCircleOutline } from "react-icons/io";
+import {TodoItemContext} from "./store/Todo-Item-Context";
 
-let InputComponent=({addTodoList,addTodoItemOnSave,removeTodoItemOnDelete})=>{
+let InputComponent=()=>{
     
-    
+    const {todo,addTodoItemOnSave}=useContext(TodoItemContext);
     let newTodoItem=useRef("");
     let todoDate=useRef("");
     
@@ -45,9 +46,9 @@ let InputComponent=({addTodoList,addTodoItemOnSave,removeTodoItemOnDelete})=>{
             </form>
             </div>
 
-            {addTodoList.map((item)=>{
+            {todo.map((item)=>{
                 return(
-                    <TodoItem item={item.item} date={item.date} removeTodoItemOnDelete={removeTodoItemOnDelete}></TodoItem>
+                    <TodoItem item={item.item} date={item.date}></TodoItem>
                 )
             })}
         </>
