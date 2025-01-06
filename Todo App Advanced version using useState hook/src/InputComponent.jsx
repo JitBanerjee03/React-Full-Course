@@ -1,6 +1,7 @@
 import { useState } from "react"
 import TodoItem from "./TodoItem"
 import style from "./styles/InputComponent.module.css"
+import { IoIosAddCircleOutline } from "react-icons/io";
 
 let InputComponent=({addTodoList,addTodoItemOnSave,removeTodoItemOnDelete})=>{
     
@@ -38,7 +39,7 @@ let InputComponent=({addTodoList,addTodoItemOnSave,removeTodoItemOnDelete})=>{
                 </div>
 
                 <div class="col">
-                    <button type="button" class="btn btn-success" onClick={()=>addTodoItemOnSave(newTodo,newTodoDate)}>Add todo</button>
+                    <button type="button" class="btn btn-success" onClick={()=>addTodoItemOnSave(newTodo,newTodoDate)}><IoIosAddCircleOutline/></button>
                 </div>
             </div>
             </div>
