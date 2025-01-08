@@ -1,0 +1,14 @@
+.outerDiv{
+    height: 45rem;
+    border: 2px solid black;  
+    display: flex;  
+}
+
+.sidebar{
+    border: 2px solid black;
+    min-height: 100%;
+}
+
+.innerDiv{
+    width: 100%;
+}
