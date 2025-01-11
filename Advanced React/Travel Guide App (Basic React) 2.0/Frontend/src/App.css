@@ -1,0 +1,16 @@
+.outerDiv{
+    height: 45rem;  
+    display: flex;  
+}
+
+.sidebar{
+    min-height: 100%;
+}
+
+.innerDiv{
+    width: 100%;
+}
+
+.startmessageClass{
+    margin-top: 5%;
+}
